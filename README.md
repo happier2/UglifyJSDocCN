@@ -535,7 +535,7 @@ var result = UglifyJS.minify({"compiled.js": "compiled code"}, {
 
 - `properties` -- 用`.`来重写属性引用，例如`foo["bar"] → foo.bar`
 
-- `dead_code` -- 移除没被引用的代码
+- `dead_code` -- 移除不能到达的代码
 
 - `drop_debugger` -- 移除 `debugger;` 
 
